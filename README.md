@@ -6,3 +6,8 @@ https://www.google.com "Google's Homepage"
 *Do I contradict myself?\
 Very well then I contradict myself,\
 (I am large, I contain multitudes.)*
+# Tables
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
