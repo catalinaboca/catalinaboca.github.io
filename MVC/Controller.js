@@ -9,7 +9,7 @@ class t_eq2_controller
 		//construim o lista de evenimente care au atasate fnctii ascultatoare
 		var events=new t_events();
 		//adaugam on_solve(metoda controller-ului) in lista
-		events.add_event("solve_clicked_UAB",this.on_solve);
+		events.add_event("solve_clicked_UAB",this.on_solve.bind(this));
 		//transmitem lista la view
 		this.view.set_events_list(events);
 	}
