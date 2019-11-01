@@ -7,7 +7,7 @@ function is_prime(n)
 	}
 	return false;
 }
-for(var i=1E9;i<1E10;i++)
+for(var i=1E11;i<1E12;i++)
 {
 	if(is_prime(i))
 	{
