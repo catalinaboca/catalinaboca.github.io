@@ -7,7 +7,7 @@ function deseneaza(unghi_x, unghi_y)
 	var canvas=document.getElementById("id_canvas");
 	var context=canvas.getContext("2d");
     var r=10;
-	
+	context.clearRect(0,0,canvas.width,canvas.height);
 	//construim o cale
 	context.beginPath();
 	//adaugam un cerc la cale
