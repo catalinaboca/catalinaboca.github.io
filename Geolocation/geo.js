@@ -4,11 +4,11 @@ function start()
 {
 	navigator.geolocation.getCurrentPosition(on_ok_gps_uab,on_fail_gps_uab);
 }
-function on_ok_gps_uab(e)
+function on_ok_gps_uab()
 {
 	document.getElementById("id_geo").innerHTML=e.coords.latitude + " " + e.coords.longitude + " " + e.coords.accuracy;
 }
-function on_fail_gps_uab(e)
+function on_fail_gps_uab()
 {
 	alert("Esec" + e);
 }
