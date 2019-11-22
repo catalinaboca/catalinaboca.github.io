@@ -4,7 +4,7 @@ document.getElementById("id_stop").addEventListener("click",stop);
 var timer_id;
 var unghi={};
 unghi.valoare=0;
-var muncitor=null;
+var muncitor=undefined;
 function desenare(context,canvas,raza_mica,raza_mare,unghi)
 {
 		context.clearRect(0,0,canvas.width,canvas.height);
@@ -23,16 +23,15 @@ function start()
 	document.getElementById("id_stop").disabled=false;
 	var canvas=document.getElementById("id_canvas");
 	var context=canvas.getContext("2d");
-	if(muncitor==null){
+	if(!muncitor){
     muncitor=new Worker("calcul_prime.js");
 	muncitor.onmessage=function(e)
 	{
 		document.getElementById("id_prime").innerHTML=e.data;
 	}
-	}
 	muncitor.postMessage("start");
-	else 
-	{
+	}
+	else {
 		muncitor.postMessage("start");
 	}
 	var raza_mare=100;

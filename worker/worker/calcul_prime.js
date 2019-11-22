@@ -27,7 +27,7 @@ function start_calcul(start_numar)
 	if(ruleaza==false)
 		;
 	else{
-for(var i=sta_nmar;i<start_numar+100;i++)
+for(var i=start_numar;i<start_numar+100;i++)
 	if(is_prime(i))
 	
 		postMessage(i);
