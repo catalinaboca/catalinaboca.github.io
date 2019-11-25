@@ -7,8 +7,7 @@ unghi.valoare=0;
 var muncitor=undefined;
 function desenare(unghi)
 {
-	/*
-		context.clearRect(0,0,canvas.width,canvas.height);
+	/*context.clearRect(0,0,canvas.width,canvas.height);
 		var x=canvas.width/2+ raza_mare*Math.cos(unghi.valoare*Math.PI/180);
 		var y=canvas.height/2+ raza_mare*Math.sin(unghi.valoare*Math.PI/180);
 		context.beginPath();
@@ -52,7 +51,7 @@ function start()
 	}
 	var raza_mare=100;
 	var raza_mica=10;
- /*timer_id=setInterval(desenare,20,context , canvas , raza_mica, raza_mare , unghi);	*/
+ //timer_id=setInterval(desenare,20,context , canvas , raza_mica, raza_mare , unghi);	
  timer_id=setInterval(desenare,20,unghi);
 }
 function stop()
