@@ -1,4 +1,4 @@
-document.getElementById("id_logic").innerHTML = "Logic version=2019.11.25.4";
+document.getElementById("id_logic").innerHTML = "Logic version=2019.11.25.5";
 document.getElementById("id_start").addEventListener("click",start);
 document.getElementById("id_stop").addEventListener("click",stop);
 var timer_id;
@@ -52,7 +52,7 @@ function start()
 	}
 	var raza_mare=100;
 	var raza_mica=10;
- timer_id=setInterval(desenare,20,context , canvas , raza_mica, raza_mare , unghi);	*/
+ /*timer_id=setInterval(desenare,20,context , canvas , raza_mica, raza_mare , unghi);	*/
  timer_id=setInterval(desenare,20,unghi);
 }
 function stop()
