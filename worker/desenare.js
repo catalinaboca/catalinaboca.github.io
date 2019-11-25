@@ -60,5 +60,5 @@ function stop()
 	clearInterval(timer_id);
 	document.getElementById("id_start").disabled=false;
 	document.getElementById("id_stop").disabled=true;
-	//mucitor.postMessage("stop");
+	mucitor.postMessage("stop");
 }
