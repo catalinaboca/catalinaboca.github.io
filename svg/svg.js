@@ -1,5 +1,5 @@
-document.getElementById("id_logic_version").innerHTML="Logic=2019.12.02.4";
-document.getElementById("id_cerere",request_clicked);
+document.getElementById("id_logic_version").innerHTML="Logic=2019.12.02.5";
+document.getElementById("id_cerere").addEventListener("click",request_clicked);
 function ok_f(p)
 {
 	if(p=="granted") window.addEventListener("deviceorientation",on_gyro_data_uab);
