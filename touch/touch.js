@@ -1,4 +1,4 @@
-document.getElementById("id_logic").innerHTML="Logic 2019.12.02.4";
+document.getElementById("id_logic").innerHTML="Logic 2019.12.02.5";
 window.addEventListener("touchstart",touch_start_uab);
 window.addEventListener("touchmove",touch_move_uab,{passive:false});
 window.addEventListener("touchend",touch_end_uab);
@@ -59,7 +59,7 @@ function touch_move_uab(p)
 		    context.fill();
 			context.stroke();
 			last_position[index_t].x=t[i].pageX;
-			last_position[index_t].x=t[i].pageY;
+			last_position[index_t].y=t[i].pageY;
 		}
     }
 	
