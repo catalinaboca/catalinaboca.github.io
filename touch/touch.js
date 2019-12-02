@@ -1,6 +1,6 @@
-document.getElementById("id_logic").innerHTML="Logic 2019.12.02.2";
+document.getElementById("id_logic").innerHTML="Logic 2019.12.02.4";
 window.addEventListener("touchstart",touch_start_uab);
-window.addEventListener("touchmove",touch_move_uab);
+window.addEventListener("touchmove",touch_move_uab,{passive:false});
 window.addEventListener("touchend",touch_end_uab);
 var canvas=document.getElementById("id_canvas");
 var context=canvas.getContext("2d");
@@ -38,6 +38,7 @@ function touch_start_uab(p)
 }
 function touch_move_uab(p)
 {
+	p.preventDefault();
 	var t=p.changedTouches;
 	for(var i=0;i<t.length;i++)
 	{
