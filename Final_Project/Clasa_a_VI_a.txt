@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html id="id_page">
+<body>
+<head>
+<title> Learning Maths</title>
+</head>
+<body style="background-color:powderblue;">
+</body>
+</html>
