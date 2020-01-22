@@ -30,7 +30,7 @@ class app_view
 	}
       get_menu_V()
 	  {
-       return setTimeout("window.open('C:/Users/beaut/Desktop/html/Final_Project/Clasa_a_V_a.html')",1000);
+       return setTimeout("window.open('Clasa_a_V_a.html')",1000);
       }
 	   get_menu_VI()
 	  {
