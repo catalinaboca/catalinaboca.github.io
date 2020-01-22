@@ -28,11 +28,11 @@ class app_view
 	{
 		this.events.call_event("navigation_app_VIII");
 	}
-      get_menu_V()
+     /* get_menu_V()
 	  {
       // return setTimeout("window.open('Clasa_a_V_a.html')",1000);
 	  setTimeout("window.open('Clasa_a_V_a.html')",1000);
-      }
+      }*/
 	   get_menu_VI()
 	  {
        return setTimeout("window.open('C:/Users/beaut/Desktop/html/Final_Project/Clasa_a_VI_a.html')",1000);
