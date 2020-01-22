@@ -12,7 +12,7 @@ class app_view
 	{
 		this.events=events;
 	}
-    on_click_navigation_V()
+    function on_click_navigation_V()
 	{
 		this.events.call_event("navigation_app_V");
 	}
