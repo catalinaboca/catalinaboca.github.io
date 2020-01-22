@@ -30,7 +30,7 @@ class app_view
 	}
      function get_menu_V()
 	  {
-      return setTimeout("window.open('Clasa_a_V_a.html')",1000);
+      setTimeout("window.open('Clasa_a_V_a.html')",1000);
       }
 	   get_menu_VI()
 	  {

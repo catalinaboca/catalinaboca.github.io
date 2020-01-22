@@ -9,7 +9,7 @@ view;
 		this.view.set_events_list(events);
 	}
 		
-	on_click_menu_V()
+	function on_click_menu_V()
 	{
 		this.view.get_menu_V();
 	}
