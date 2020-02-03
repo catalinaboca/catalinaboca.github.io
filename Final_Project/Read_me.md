@@ -1,4 +1,4 @@
-Nume proiect : Aplicatie educationala pentru materia matematica
+Nume proiect : Aplicatie educationala pentru materia matematica<br>
 Autor : Boca Catalina-Maria
 Descriere : Aplicatia are scopul de a ajuta elevii sa isi imbunatateasca cunostintele de matematica pentru clasele gimnaziale prin tutoriale video si testele de verificare in urma fiecarui capitol.
 Pe ce sistem de operare ruleaza : Windows
