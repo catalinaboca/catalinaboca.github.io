@@ -6,5 +6,5 @@ Tehnologii folosite : Aplicatie creata cu ajutorul limbajului Javascript + HTML
 Cod preluat : codul din Script_Splash.js
               link- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3
 
-
+![IMAGINE|512x397](84406210_207259310454184_2240420993619197952_n.jpg.jpg)
 
