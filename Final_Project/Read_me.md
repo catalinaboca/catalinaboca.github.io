@@ -8,7 +8,5 @@ Cod preluat : codul din Script_Splash.js
 
 <img src="https://github.com/catalinaboca/catalinaboca.github.io/edit/master/Final_Project/screen_shot.jpg"
      alt="App_screen_shot"
-     style="float: left; margin-right: 10px;" 
-     width:512px;
-     height:397px;/>
+     style="float: left; margin-right: 10px;";/>
 
