@@ -6,5 +6,7 @@ Tehnologii folosite : Aplicatie creata cu ajutorul limbajului Javascript + HTML
 Cod preluat : codul din Script_Splash.js
               link- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3
 
-![IMAGINE|512x397](screen_shot.jpg)
+<img src="screen_shot.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
