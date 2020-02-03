@@ -6,7 +6,5 @@ Tehnologii folosite : Aplicatie creata cu ajutorul limbajului Javascript + HTML
 Cod preluat : codul din Script_Splash.js
               link- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3
 
-<img src="https://github.com/catalinaboca/catalinaboca.github.io/edit/master/Final_Project/screen_shot.jpg"
-     alt="App_screen_shot"
-     style="float: left; margin-right: 10px;"/>
+![IMAGINE|512X397](https://github.com/catalinaboca/catalinaboca.github.io/edit/master/Final_Project/screen_shot.jpg)
 
