@@ -7,6 +7,8 @@ Cod preluat : codul din Script_Splash.js
               link- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_progressbar_3
 
 <img src="https://github.com/catalinaboca/catalinaboca.github.io/edit/master/Final_Project/screen_shot.jpg"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     alt="App_screen_shot"
+     style="float: left; margin-right: 10px;" 
+     width:512px;
+     height:397px;/>
 
