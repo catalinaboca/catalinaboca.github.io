@@ -1,6 +1,6 @@
 Nume proiect : Aplicatie educationala pentru materia matematica<br>
 Autor : Boca Catalina-Maria<br>
-Descriere : Aplicatia are scopul de a ajuta elevii sa isi imbunatateasca cunostintele de matematica pentru clasele gimnaziale prin tutoriale video si testele de verificare in urma fiecarui capitol.<br>
+Descriere : Aplicatia are scopul de a ajuta elevii sa isi imbunatateasca cunostintele de matematica pentru clasele gimnaziale prin tutoriale video si testele de verificare in urma fiecarui capitol,acestea consistand in 4 intrebari de tip grila cu un singur raspuns corect. Aplicatia este creata conform metodei MVC iar senzorul de geolocatie este folosit. In partea de meniu principal este implementat un "mini calculator" pentru cele 4 operatiadunare,scadere,inmultire,impartire.<br>
 Pe ce sistem de operare ruleaza : orice sistem de operare <br>
 Tehnologii folosite : Aplicatie creata cu ajutorul limbajului Javascript + HTML<br>
 Cod preluat : codul din Script_Splash.js<br>
